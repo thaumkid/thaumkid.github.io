@@ -2,7 +2,7 @@
 
 I was asked to manage finances in my local congregation for a while. Our church has a centralized system which manages finances. Naturally, I wanted more functionality than their interface provided, such as retrieval of entire batches of data at once, so I could do my own data munging and not rely on their watered-down routines.
 
-The batches I had permission to download was all visible from the church financials page, after maximizing the date range in the transaction summary screen. So I would just capture all the text from that page and dump it into a text file ("batches.txt"). The url for the itemized data was formatted as follows:
+The batches I had permission to download were all visible from the church financials page, after maximizing the date range in the transaction summary screen. So I would just capture all the text from that page and dump it into a text file ("batches.txt"). The url for the itemized data was formatted as follows:
 
 `https://beta.lds.org/finance/donations/slips?donationBatchId=[batch number]&internalAccountId=[numeric user id]`
 
